@@ -5,12 +5,13 @@ body{
     font-size: 16px;
     color: #23120B;
     margin: 0 auto;
+    padding: 0;
     background-color: #F1F1F1;
     background-image: url(../images/main_grid.svg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 1024px; 
+    height: 600px; 
 }
 
 h1{
@@ -19,7 +20,7 @@ h1{
     font-style: normal;
     font-size: 330px;
     color: #21209C;
-    margin: 150px 0 0 0; /*éventuellement à modifier*/
+    margin: 150px 0 0 0;
     max-width: 1024px;
 }
 
@@ -29,7 +30,7 @@ h2{
     font-style: normal;
     font-size: 58px;
     color: #23120B;
-    margin: 5px 0 5px 0; /*éventuellement à modifier*/
+    margin: 5px 0 5px 0;
 }
 
 h3{
@@ -41,6 +42,24 @@ h3{
     margin: 5px 0 5px 0; /*éventuellement à modifier*/
 }
 
+::selection {
+    background-color: #FDB827;
+    color: #23120B;
+    -webkit-text-fill-color: #23120B;
+}
+
+::-moz-selection {
+    background-color: #FDB827;
+    color: #23120B;
+    -webkit-text-fill-color: #23120B;
+}
+
+::-webkit-selection {
+    background-color: #FDB827;
+    color: #23120B;
+    -webkit-text-fill-color: #23120B;
+}
+
 header{
     padding: 10px;
     position: fixed;
@@ -50,7 +69,7 @@ header{
 }
 
 header div{
-    width: 1024px; /*éventuellement à modifier*/
+    width: 1024px;
     margin: auto;
     background-color: #23120B;
     border-radius: 15px;
@@ -89,7 +108,7 @@ nav li a:hover{
     border-radius: 10px;
     background-color: #FDB827;
     color: #23120B;
-    padding: 13px;
+    padding: 8px 20px;
     margin-left: 0.5em;
     margin-right: 12px;
     font-size: 20px;
@@ -119,28 +138,32 @@ main{
 }
 */
 
-img{
+ main img{
     border-radius: 15px;
-    max-width: 100%;
 }
 
-div.box1{
+main#homepage div.square1{
     display: inline-block;
+    vertical-align: top;
     width: 500px;
-    margin: 0;
-    padding: 0;
 }
 
-main#homepage div.box1.paragraph{
-    padding: 20px;
-    margin-left: 20px;
-    width: 460px;
+main#homepage div.square1.image{
+    width: 500px;
+}
+
+main#homepage div.square1.paragraph{
+    padding: 5px 25px;
+    margin-left: 7px;
+    width: 463px;
+    height: 265px;
     color: #F1F1F1;
     background-color: #23120B;
     border-radius: 15px;
+    margin-top: 240px;
 }
 
-main#homepage div.box1.paragraph a{
+main#homepage div.square1.paragraph a{
     background-color: #FDB827;
     text-decoration: none;
     color: #23120B;
@@ -148,12 +171,29 @@ main#homepage div.box1.paragraph a{
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
-    padding: 20px;
-    margin: 10px 0;
+    padding: 12px 30px;
     border-radius: 10px;
 }
 
-main#homepage div.box1.paragraph a:hover{
+main#homepage div.square1.paragraph a:hover{
     color: #21209C;
     background-color: #F1F1F1;
+}
+
+main#homepage section.testimonials{
+    margin-top: 150px;
+}
+
+main#homepage div.testimonial{
+    display: inline-block;
+    vertical-align: top;
+    width: 332px;
+}
+
+main#homepage div.testimonial.second{
+    padding-left: 15px;
+}
+
+main#homepage section.ux_projets{
+    margin-top: 150px;
 }
