@@ -1,3 +1,4 @@
+/* General */
 body{
     font-family: "Rubik", sans-serif;
     font-optical-sizing: auto;
@@ -11,7 +12,7 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 600px; 
+    height: 600px;
 }
 
 h1{
@@ -42,6 +43,10 @@ h3{
     margin: 5px 0 5px 0; /*éventuellement à modifier*/
 }
 
+.blue_text{
+    color: #21209C;
+}
+
 ::selection {
     background-color: #FDB827;
     color: #23120B;
@@ -60,9 +65,11 @@ h3{
     -webkit-text-fill-color: #23120B;
 }
 
+/* Header */
 header{
     padding: 10px;
     position: fixed;
+    z-index: 100%;
     top: 0;
     left: 0;
     right: 0;
@@ -76,6 +83,7 @@ header div{
     margin-top: 20px;
     padding: 25px 0;
     max-width: 1024px;
+    z-index: 100%;
 }
 
 header div nav{
@@ -112,6 +120,7 @@ nav li a:hover{
     margin-left: 0.5em;
     margin-right: 12px;
     font-size: 20px;
+    text-align: center;
 }
 
 #button_header:hover{
@@ -119,6 +128,7 @@ nav li a:hover{
     color: #21209C;
 }
 
+/* Body */
 main{
     max-width: 1024px;
     margin: 200px auto 100px;
@@ -128,42 +138,35 @@ main{
     max-width: 100%;
 }
 
-/*
-.background_grid{
-    background-image: url(../images/main_grid.svg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 1024px; 
-}
-*/
-
+/* Introduction */
  main img{
     border-radius: 15px;
 }
 
-main#homepage div.square1{
+main#homepage div.square{
     display: inline-block;
     vertical-align: top;
     width: 500px;
 }
 
-main#homepage div.square1.image{
+main#homepage div.square.image{
     width: 500px;
 }
 
-main#homepage div.square1.paragraph{
-    padding: 5px 25px;
+main#homepage div.square.paragraph{
+    padding: 10px 25px;
     margin-left: 7px;
     width: 463px;
-    height: 265px;
+    height: 245px;
     color: #F1F1F1;
     background-color: #23120B;
     border-radius: 15px;
     margin-top: 240px;
+    padding-bottom: 20px;
+    text-align: center;
 }
 
-main#homepage div.square1.paragraph a{
+main#homepage div.square.paragraph a{
     background-color: #FDB827;
     text-decoration: none;
     color: #23120B;
@@ -171,15 +174,16 @@ main#homepage div.square1.paragraph a{
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
-    padding: 12px 30px;
+    padding: 12px 115px;
     border-radius: 10px;
 }
 
-main#homepage div.square1.paragraph a:hover{
+main#homepage div.square.paragraph a:hover{
     color: #21209C;
     background-color: #F1F1F1;
 }
 
+/* Testimonials */
 main#homepage section.testimonials{
     margin-top: 150px;
 }
@@ -194,6 +198,115 @@ main#homepage div.testimonial.second{
     padding-left: 15px;
 }
 
-main#homepage section.ux_projets{
+/* Card slider */
+.container{
+    margin-top: 150px;
+    z-index: 20%;
+}
+
+section .card .image{
+    height: 200px;
+    width: 240px;
+}
+
+section .card .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card{
+    background-color: #21209C;
+    border-radius: 15px;
+    max-width: 308px;
+    margin-right: 50px;
+}
+
+.card .card-content{
+    display: flex;
+    flex-direction: column;
+    padding:20px 30px 30px 30px;
+    text-decoration: none;
+}
+
+.card-text {
+    color: #F1F1F1;
+}
+
+.card-text h3{
+    color: #F1F1F1;
+}
+.card-button{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.card-button a {
+    background-color: #FDB827;
+    text-decoration: none;
+    color: #23120B;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    padding: 12px 63px;
+    border-radius: 10px;
+}
+
+.card-button a:hover {
+    background-color: #F1F1F1;
+    color: #21209C;
+}
+
+.swiper-pagination-bullet-active{
+    background: #FDB827;
+}
+
+/*About me*/
+section.about_me{
+    margin-top: 150px;
+}
+
+div.personality{
+    display: inline-block;
+    vertical-align: top;
+    width: 510px;
+}
+
+div.personality h3{
+    color: #F1F1F1;
+    background-color: #21209C;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    padding: 20px;
+}
+
+.personality .one{
+    width: 230px;
+}
+
+.personality .two{
+    width: 190px;
+}
+
+.personality .three{
+    width: 150px;
+}
+
+.personality .four{
+    width: 270px;
+}
+
+.personality .five{
+    width: 150px;
+}
+
+/*contact*/
+
+.contact{
     margin-top: 150px;
 }
