@@ -163,7 +163,7 @@ main#homepage div.square.paragraph{
     border-radius: 15px;
     margin-top: 240px;
     padding-bottom: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 main#homepage div.square.paragraph a{
@@ -174,7 +174,7 @@ main#homepage div.square.paragraph a{
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
-    padding: 12px 115px;
+    padding: 12px 118px;
     border-radius: 10px;
 }
 
@@ -198,51 +198,38 @@ main#homepage div.testimonial.second{
     padding-left: 15px;
 }
 
-/* Card slider */
-.container{
+/*projets*/
+section.projects.first_row{
     margin-top: 150px;
-    z-index: 20%;
 }
 
-section .card .image{
-    height: 200px;
-    width: 240px;
+section.projects.second_row{
+    margin-top: 5px;
 }
 
-section .card .image img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+#h2_projects{
+    margin-bottom: 20px;
 }
 
-.card{
+article.card{
+    display: inline-block;
     background-color: #21209C;
+    color: #F1F1F1;
+    width: 298px;
+    padding: 0 20px 20px 20px;
     border-radius: 15px;
-    max-width: 308px;
-    margin-right: 50px;
+    vertical-align: top;
 }
 
-.card .card-content{
-    display: flex;
-    flex-direction: column;
-    padding:20px 30px 30px 30px;
-    text-decoration: none;
-}
-
-.card-text {
+article.card p{
     color: #F1F1F1;
 }
 
-.card-text h3{
-    color: #F1F1F1;
-}
-.card-button{
-    margin-top: 30px;
-    margin-bottom: 15px;
-    text-align: center;
+article.card img{
+    width: 50%;
 }
 
-.card-button a {
+article.card a{
     background-color: #FDB827;
     text-decoration: none;
     color: #23120B;
@@ -250,17 +237,19 @@ section .card .image img{
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
-    padding: 12px 63px;
+    padding: 12px 93px;
     border-radius: 10px;
+    display: block;
+    line-height: normal;
 }
 
-.card-button a:hover {
-    background-color: #F1F1F1;
+article.card a:hover{
     color: #21209C;
+    background-color: #F1F1F1;
 }
 
-.swiper-pagination-bullet-active{
-    background: #FDB827;
+section.projects.third_row{
+    margin-top: 100px;
 }
 
 /*About me*/
@@ -306,7 +295,60 @@ div.personality h3{
 }
 
 /*contact*/
-
 .contact{
     margin-top: 150px;
+}
+
+div.informations{
+    display: inline-block;
+    width: 510px;
+    vertical-align: top;
+}
+
+.informations img{
+    width: 500px;
+    margin: auto;
+    display: block;
+}
+
+/*Footer*/
+footer{
+    background-color: #21209C;
+    color: #F1F1F1;
+    align-items: center; 
+    margin-top: 50px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+}
+
+div.top {
+    max-width: 1024px;
+    margin: 200px auto 50px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+div.top a{
+    margin-left: 10px;
+}
+
+.designer p{
+    margin: 20px 0 0 5px;
+}
+
+.white_line{
+    border-top: 2px solid #F1F1F1;
+}
+
+div.bottom {
+    max-width: 1024px;
+    margin: 200px auto 100px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+div.bottom a{
+    text-decoration: none;
+    color:#F1F1F1
 }
