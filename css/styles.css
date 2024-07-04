@@ -90,7 +90,7 @@ header div{
     border-radius: 15px;
     margin-top: 20px;
     padding: 25px 0;
-    max-width: 1024px;
+    max-width: 750px;
     z-index: 100%;
 }
 
@@ -208,7 +208,7 @@ main#homepage div.testimonial.second{
 
 /* Projets */
 section.projects.first_row{
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 section.projects.second_row{
@@ -266,48 +266,6 @@ section.projects.fourth_row{
 
 section.projects.fifth_row{
     margin-top: 150px;
-}
-
-/* About me */
-section.about_me{
-    margin-top: 150px;
-}
-
-div.personality{
-    display: inline-block;
-    vertical-align: top;
-    width: 510px;
-}
-
-div.personality h3{
-    color: #F1F1F1;
-    background-color: #21209C;
-    border-radius: 30px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 25px;
-    padding: 20px;
-}
-
-.personality .one{
-    width: 230px;
-}
-
-.personality .two{
-    width: 190px;
-}
-
-.personality .three{
-    width: 150px;
-}
-
-.personality .four{
-    width: 270px;
-}
-
-.personality .five{
-    width: 150px;
 }
 
 /* Contact */
@@ -369,12 +327,8 @@ div.bottom a{
     color:#F1F1F1
 }
 
-/* Page Blossom */
-.projects.blossom{
-   margin: 40px 37px 0 37px;
-}
-
-#blossom article{
+/* Page personal_projet */
+#work article{
     padding-top: 15px;
 }
 
@@ -498,7 +452,7 @@ article.survey img{
     }
 
     header div nav{
-        text-align: right;
+        text-align: center;
     }
 
     nav ul li {
@@ -508,7 +462,7 @@ article.survey img{
 
     nav ul li a {
         font-size: 12px;
-        padding: 7px;
+        padding: 2px;
         margin: 0;
         color: #F1F1F1;
     } 
@@ -676,10 +630,14 @@ article.survey img{
         margin-top: -150px;      
     }
 
-    /* Page Blossom */
-    .projects.blossom{
-        padding-right: 0px;
-        margin: 40px 23px 0 23px ;
+    /* personal_projet */
+    #work{
+        margin-top: 100px;
+    }
+
+    section.personal_projet{
+        width: 100%;
+        margin: 0px 20px 0 20px;
     }
 
     .wireframes div img{
@@ -740,7 +698,7 @@ article.survey img{
     }
 
     header div {
-        max-width: 480px;
+        max-width: 100%;
         margin: 0;
         padding: 0;
         background: none;
@@ -748,7 +706,7 @@ article.survey img{
     }
 
     header div nav{
-        text-align: right;
+        text-align: center;
     }
 
     nav ul li {
@@ -922,10 +880,14 @@ article.survey img{
         margin-top: -150px;      
     }
 
-    /* Page Blossom */
-    .projects.blossom{
-        padding-right: 0px;
-        margin: 40px 23px 0 23px ;
+    /* personal_projet */
+    #work{
+        margin-top: 100px;
+    }
+
+    section.personal_projet{
+        width: 100%;
+        margin: 0 20px 0 20px;
     }
 
     .wireframes div img{
@@ -948,6 +910,10 @@ article.survey img{
     body {
         background-image: none;
     }
+
+    main{
+        margin: 90px auto 100px;
+    }
     
     p {
         font-size: 12px;
@@ -964,7 +930,7 @@ article.survey img{
 
     .normal_h1{
         font-size: 52px;
-        margin: -182px 20px 0 20px;
+        margin: -75px 20px 0 20px;
     }
 
     h2 {
@@ -1169,9 +1135,14 @@ article.survey img{
         margin-top: -150px;      
     }
 
-    /* Page Blossom */
-    .projects.blossom{
-        padding-right: 150px;
+    /* personal_projet */
+    #work{
+        margin-top: 25px;
+    }
+
+    section.personal_projet{
+        width: 470px;
+        margin: 0px 20px 0 20px;
     }
 
     .wireframes div img{
@@ -1194,6 +1165,10 @@ article.survey img{
     body {
         background-image: none;
     }
+
+    main{
+        margin: 90px auto 100px;
+    }
     
     p {
         font-size: 12px;
@@ -1210,7 +1185,7 @@ article.survey img{
 
     .normal_h1{
         font-size: 52px;
-        margin: -182px 40px 0 40px;
+        margin: -75px 20px 0 40px;
     }
 
     h2 {
@@ -1415,9 +1390,14 @@ article.survey img{
         margin-top: -150px;      
     }
 
-    /* Page Blossom */
-    .projects.blossom{
-        padding-right: 150px;
+    /* personal_projet */
+    #work{
+        margin-top: 25px;
+    }
+
+    section.personal_projet{
+        width: 500px;
+        margin: 0px 20px 0 40px;
     }
 
     .wireframes div img{
@@ -1465,7 +1445,7 @@ article.survey img{
     
     /* Menu */
     header div{
-        max-width: 950px;
+        max-width: 750px;
         margin: auto;
         background-color: #23120B;
         margin-top: 20px;
@@ -1585,7 +1565,7 @@ article.survey img{
     
     /* Projets */
     section.projects.first_row{
-        margin-top: 100px;
+        margin-top: 70px;
         width: 945px;
     }
     
@@ -1661,7 +1641,7 @@ article.survey img{
         vertical-align: top;
         width: 450px;
     }
-    
+
     div.personality h3{
         color: #F1F1F1;
         background-color: #21209C;
@@ -1698,7 +1678,7 @@ article.survey img{
         width: 120px;
         font-size: 15px;
     }
-    
+
     /* Contact */
     .contact{
         margin-top: 100px;
@@ -1757,9 +1737,14 @@ article.survey img{
         color:#F1F1F1
     }
 
-    /* Page Blossom */
-    .projects.blossom{
-        padding-right: 150px;
+    /* personal_projet */
+    #work{
+        margin-top: 200px;
+    }
+
+    section.personal_projet{
+        width: 945px;
+        margin: auto;
     }
 
     .wireframes div img{
@@ -1876,6 +1861,10 @@ article.survey img{
     }
 
     /* Projets */
+    section.projects.first_row{
+        margin-top: 70px;
+    }
+
     #h2_projects{
         width: 1000px;
     }
@@ -1884,7 +1873,17 @@ article.survey img{
         width: 100%;
     }
 
-    /* About me */
+    /* About me*/
+    section.about_me{
+        margin-top: 100px;
+    }
+    
+    div.personality{
+        display: inline-block;
+        vertical-align: top;
+        width: 480px;
+    }
+
     div.personality h3{
         color: #F1F1F1;
         background-color: #21209C;
@@ -1917,9 +1916,14 @@ article.survey img{
         width: 150px;
     }
 
-    /* Blossom page*/
-    .projects.blossom{
-        padding-right: 170px;
+    /* personal_projet */
+    #work{
+        margin-top: 200px;
+    }
+    
+    section.personal_projet{
+        width: 945px;
+        margin: auto;
     }
 
     .wireframes div img{
@@ -2008,7 +2012,7 @@ article.survey img{
 
     /* Testimonials */
     main#homepage section.testimonials{
-        margin-top: 150px;
+        margin-top: 100px;
         width: 1000px;
     }
     
@@ -2032,12 +2036,16 @@ article.survey img{
     }
 
     /* About me */
+    section.about_me{
+        margin-top: 100px;
+    }
+
     div.personality{
         display: inline-block;
         vertical-align: top;
         width: 480px;
     }
-    
+
     div.personality h3{
         color: #F1F1F1;
         background-color: #21209C;
@@ -2070,9 +2078,14 @@ article.survey img{
         width: 150px;
     }
 
-    /* Blossom page*/
-    .projects.blossom{
-        padding-right: 170px;
+    /* personal_projet */
+    #work{
+        margin-top: 200px;
+    }
+
+    section.personal_projet{
+        width: 945px;
+        margin: auto;
     }
 
     .wireframes div img{
