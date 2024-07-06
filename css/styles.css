@@ -399,6 +399,33 @@ article.survey img{
     font-style: normal;
     border-radius: 10px;
 }
+/* My Hobby */
+.logo_myhobby{
+    width: 15%;
+}
+
+.myhobby_questionnement img{
+    display: inline-block;
+}
+
+.myhobby_questionnement div img{
+    width: 49%;
+    vertical-align: top;
+}
+
+.wireframes img{
+    vertical-align: top;
+    padding-bottom: 10px;
+}
+
+.prototype img{
+    vertical-align: top;
+    padding-bottom: 10px;
+}
+
+.kit_UI img{
+    width: 100%;
+}
 
 /* RESPONSIVE */
 /* Mobile screen 375px */
