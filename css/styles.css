@@ -8,7 +8,7 @@ body{
     margin: 0 auto;
     padding: 0;
     background-color: #F1F1F1;
-    background-image: url(../images/main_grid.svg);
+    background-image: url(../icons/main_grid.svg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -90,7 +90,7 @@ header div{
     border-radius: 15px;
     margin-top: 20px;
     padding: 25px 0;
-    max-width: 750px;
+    width: 750px;
     z-index: 100%;
 }
 
@@ -280,7 +280,7 @@ div.informations{
 }
 
 .informations img{
-    width: 500px;
+    width: 100%;
     margin: auto;
     display: block;
 }
@@ -1445,7 +1445,7 @@ article.survey img{
 @media screen and (min-width: 1024px){
     /* General */
     body{
-        background-image: url(../images/main_grid.svg);
+        background-image: url(../icons/main_grid.svg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -1533,10 +1533,6 @@ article.survey img{
     }
     
     /* Introduction */
-    .introduction{
-        margin-top: 50px;
-    }
-    
     main#homepage div.square.image{
         width: 45%;
     }
@@ -1817,7 +1813,7 @@ article.survey img{
     }
     
     body{
-        background-image: url(../images/main_grid.svg);
+        background-image: url(../icons/main_grid.svg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -1992,7 +1988,7 @@ article.survey img{
     }
 
     body{
-        background-image: url(../images/main_grid.svg);
+        background-image: url(../icons/main_grid.svg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
