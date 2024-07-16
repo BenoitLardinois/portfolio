@@ -21,7 +21,6 @@ h1{ /*HOME PAGE */
     font-style: normal;
     font-size: 330px;
     color: #21209C;
-    margin: 150px 0 0 0;
     max-width: 1024px;
 }
 
@@ -375,6 +374,10 @@ div.bottom a{
 }
 
 .journey_map img{
+    width: 100%;
+}
+
+.kitui img{
     width: 100%;
 }
 
@@ -1525,7 +1528,7 @@ article.survey img{
     /* Body */
     main{
         max-width: 1024px;
-        margin: 200px auto 100px;
+        margin: 250px auto 100px;
     }
     
     #main_homepage{
