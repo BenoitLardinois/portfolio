@@ -440,6 +440,7 @@ article.survey img{
     
     p {
         font-size: 12px;
+        width: 100%;
     }
 
     ul{
@@ -447,8 +448,9 @@ article.survey img{
     }
 
     h1 {
-        font-size: 150px;
+        font-size: 100px;
         margin: 0 20px;
+        width: 100%;
     }
 
     .normal_h1{
@@ -457,25 +459,33 @@ article.survey img{
     }
 
     h2 {
-        font-size: 32px;
+        font-size: 20px;
         display: block;
-        width: 470px;
+        width: 100%;
+    }
+
+    h2#h2_projects{
+        font-size: 20px;
+        display: block;
+        width: 100%;
     }
     
     h3 {
-        font-size: 20px;
-        width: 470px;
+        font-size: 18px;
+        width: 100%;
         display: inline;
     }
 
     /* Menu */
     header {
-        margin-top: 0px;
+        margin: 0px;
         background-color: #23120B;
+        width: 94%;
+        position: relative;
     }
 
     header div {
-        max-width: 480px;
+        width: 100%;
         margin: 0;
         padding: 0;
         background: none;
@@ -486,10 +496,10 @@ article.survey img{
     }
 
     nav ul li {
-        display: inline;
+        display: block;
         padding-bottom: 10px;
     }
-
+    
     nav ul li a {
         font-size: 12px;
         padding: 2px;
@@ -517,34 +527,34 @@ article.survey img{
 
     /* Introduction */
     .introduction {
-        margin-top: -100px;
+        margin-top: -170px;
     }
 
     main#homepage div.square img{
-        width: 94%;
+        width: 67%;
         margin: 0 20px 10px 20px;
     }
 
     main#homepage div.square.paragraph{
-        width: 420px;
+        width: 76%;
         height: 215px;
         margin: 0 20px;
-        padding-bottom: 0;
+        padding-bottom: 5px;
     }
 
     main#homepage div.square.paragraph a{
         font-size: 14px;
-        padding: 10px 110px;
+        padding: 10px 42px;
     }
 
     /* Testimonials */
     main#homepage section.testimonials{
-        margin: 50px 20px 0 20px;
+        margin: 50px 20px 0px 20px;
     }
 
     main#homepage div.testimonial{
         display: block;
-        width: 435px;
+        width: 100%;
     }
 
     main#homepage div.testimonial.second{
@@ -552,13 +562,13 @@ article.survey img{
     }
 
     .testimonials p{
-        width: 470px;
+        width: 100%;
     }
 
     /* Projets */
     section.projects.first_row{
         margin: 50px 20px 0 20px;
-        width: 470px;
+        width: 79%;
     }
 
     article.card img{
@@ -567,28 +577,28 @@ article.survey img{
 
     article.card{
         display: inline-block;
-        width: 430px;
+        width: 100%;
         margin-bottom: 15px;
     }
 
     section.projects.second_row{
         margin: 0px 20px;
-        width: 470px;
+        width: 79%;
     }
 
     section.projects.third_row{
         margin: 50px 20px 0 20px;
-        width: 470px;
+        width: 79%;
     }
 
     section.projects.fourth_row{
         margin: 0px 20px;
-        width: 470px;
+        width: 79%;
     }
 
     section.projects.fifth_row{
         margin: 50px 20px 0 20px;
-        width: 470px;
+        width: 79%;
     }
 
     /* About me */
@@ -599,7 +609,7 @@ article.survey img{
     div.personality{
         display: inline-block;
         vertical-align: top;
-        width: 470px;
+        width: 100%;
     }
 
     div.personality h3{
@@ -646,8 +656,8 @@ article.survey img{
         padding: 0;
     }
 
-    .informations {
-        max-width: 400px
+    .informations.a{
+        width: 100%;
     }
 
     .informations img{
