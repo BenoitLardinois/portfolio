@@ -664,6 +664,10 @@ article.survey img{
         width: 100%;
     }
 
+    .informations.b{
+        width: 100%;
+    }
+
     .informations img{
         display: none;
     }
@@ -672,6 +676,10 @@ article.survey img{
     footer{
         width: 100%;
         margin-top: -150px;      
+    }
+
+    .white_line{
+        width: 100%;
     }
 
     /* personal_projet */
