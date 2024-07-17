@@ -450,7 +450,7 @@ article.survey img{
     h1 {
         font-size: 100px;
         margin: 0 20px;
-        width: 100%;
+        width: 90%;
     }
 
     .normal_h1{
@@ -531,8 +531,12 @@ article.survey img{
     }
 
     main#homepage div.square img{
-        width: 67%;
+        width: 89%;
         margin: 0 20px 10px 20px;
+    }
+
+    main#homepage div.square.image{
+        width: 100%;
     }
 
     main#homepage div.square.paragraph{
