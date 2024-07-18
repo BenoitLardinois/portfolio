@@ -110,28 +110,6 @@ main#homepage div.square{
     width: 500px;
 }
 
-main#homepage div.square.paragraph{
-    color: #F1F1F1;
-    background-color: #23120B;
-    border-radius: 15px;
-    text-align: left;
-}
-
-main#homepage div.square.paragraph a{
-    background-color: #FDB827;
-    text-decoration: none;
-    color: #23120B;
-    font-family: "Alfa Slab One", serif;
-    font-weight: 400;
-    font-style: normal;
-    border-radius: 10px;
-}
-
-main#homepage div.square.paragraph a:hover{
-    color: #21209C;
-    background-color: #F1F1F1;
-}
-
 /* Projets */
 #h2_projects{
     margin-bottom: 20px;
@@ -225,7 +203,7 @@ div.bottom a{
     color:#F1F1F1
 }
 
-/* Projet spécifique */
+/* Projet spécifique à un projet */
 #work article{
     padding-top: 15px;
 }
@@ -303,17 +281,14 @@ video{
 }
 
 /* My Hobby */
-.logo_myhobby{
-    width: 15%;
+.documentation img{
+    width: 100%;
 }
 
-.myhobby_questionnement img{
-    display: inline-block;
-}
-
-.myhobby_questionnement div img{
-    width: 49%;
+.questionnement img{
+    width: 100%;
     vertical-align: top;
+    display: inline-block;
 }
 
 .wireframes img{
@@ -327,7 +302,7 @@ video{
 }
 
 .kit_UI img{
-    width: 100%;
+    width: 105%;
 }
 
 /* RESPONSIVE */
@@ -357,7 +332,7 @@ video{
     }
     
     h3 {
-        font-size: 18px;
+        font-size: 15px;
         width: 100%;
         display: inline;
     }
@@ -437,15 +412,37 @@ video{
     }
 
     main#homepage div.square.paragraph{
-        width: 76%;
+        width: 89%;
         height: 215px;
         margin: 0 20px;
-        padding: 10px 25px 5px 25px;
+        padding: 0;
+        color: #23120B;
+        background: none;
+    }
+
+    main#homepage div.square.paragraph br{
+        display: none;
     }
 
     main#homepage div.square.paragraph a{
         font-size: 14px;
-        padding: 10px 42px;
+        padding: 10px 0;
+        display: block;
+        margin: 0px;
+        text-align: center;
+        text-align: center;
+        background-color: #FDB827;
+        text-decoration: none;
+        color: #23120B;
+        font-family: "Alfa Slab One", serif;
+        font-weight: 400;
+        font-style: normal;
+        border-radius: 10px;
+    }
+
+    main#homepage div.square.paragraph a:hover{
+        color: #F1F1F1;
+        background: #21209C;
     }
 
     /* Testimonials */
@@ -454,7 +451,7 @@ video{
     }
 
     main#homepage section.testimonials{
-        margin: 50px 20px 0px 20px;
+        margin: -10px 20px 0px 20px;
     }
 
     main#homepage div.testimonial{
@@ -584,14 +581,9 @@ video{
         width: 100%;
     }
 
-    /* PAGE PROJET */
-    #projects{
-        margin-top: 112px;
-    }
-
     /* Projet spécifique */
     #work{
-        margin-top: 100px;
+        margin-top: 50px;
     }
 
     .bouton{
@@ -600,8 +592,14 @@ video{
     }
 
     section.personal_projet{
-        width: 100%;
-        margin: 0px 20px 0 20px;
+        width: 85%;
+        margin: 0px 0px 0px 20px;
+    }
+
+    section.personal_projet a{
+        display: block;
+        margin: 0px;
+        text-align: center;
     }
 
     .wireframes div img{
@@ -610,6 +608,27 @@ video{
 
     .prototype div img{
         padding: 0 2px 15px 0;
+    }
+
+    /* PAGE BLOSSOM */
+    .uclgo{
+        margin: 0 0 0 35px;
+        display: block;
+    }
+
+    /* PAGE MY HOBBY */
+    .logo_myhobby {
+    width: 25%;
+    }
+
+    /* PAGE CONTACT */
+    .personal_information{
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    #pagecontact{
+        margin-top: 90px;
     }
 }
 
@@ -621,8 +640,9 @@ video{
     }
 
     h1 {
-        font-size: 150px;
+        font-size: 120px;
         margin: 0 20px;
+        width: 90%;
     }
 
     .normal_h1{
@@ -631,13 +651,13 @@ video{
     }
 
     h2 {
-        font-size: 32px;
+        font-size: 20px;
         display: block;
-        width: 470px;
+        width: 100%;
     }
     
     h3 {
-        font-size: 20px;
+        font-size: 15px;
         width: 470px;
         display: inline;
     }
@@ -652,9 +672,10 @@ video{
 
     /* Menu */
     header {
-        margin-top: 0px;
+        margin: 0px;
         background-color: #23120B;
-        position: fixed;
+        width: 94%;
+        position: relative;
     }
 
     header div {
@@ -671,8 +692,8 @@ video{
     }
 
     nav ul li {
-        display: inline;
-        padding-bottom: 10px;
+        display: block;
+        padding-bottom: 20px;
     }
 
     nav ul li a {
@@ -702,35 +723,60 @@ video{
     }
 
     /* Introduction */
+    .introduction {
+        margin-top: -170px;
+    }
+
     main#homepage div.square img{
-        width: 94%;
-        margin: 0 20px 10px 20px;
+        width: 90%;
+        margin: 0px 20px 10px 20px;
     }
 
     main#homepage div.square.paragraph{
-        width: 420px;
+        width: 90%;
         height: 215px;
         margin: 0 20px;
-        padding: 10px 25px 0px 25px;
+        padding: 0;
+        color: #23120B;
+        background: none;
     }
 
     main#homepage div.square.paragraph a{
         font-size: 14px;
-        padding: 10px 110px;
+        padding: 10px 0;
+        display: block;
+        margin: 0px;
+        text-align: center;
+        background-color: #FDB827;
+        text-decoration: none;
+        color: #23120B;
+        font-family: "Alfa Slab One", serif;
+        font-weight: 400;
+        font-style: normal;
+        border-radius: 10px;
+    }
+
+    main#homepage div.square.paragraph a:hover{
+        color: #F1F1F1;
+        background: #21209C;
+    }
+
+    main#homepage div.square.paragraph br{
+        display: none;
     }
 
     /* Testimonials */
     .testimonials p{
-        width: 470px;
+        width: 100%;
     }
 
     main#homepage section.testimonials{
-        margin: 50px 20px 0 20px;
+        margin: -10px 20px 0px 20px;
     }
 
     main#homepage div.testimonial{
         display: block;
-        width: 435px;
+        width: 100%;
     }
 
     main#homepage div.testimonial.second{
@@ -738,34 +784,38 @@ video{
     }
 
     /* My projets */
+    #h2_projects{
+        font-size: 20px;
+        display: block;
+    }
+
     article.card{
-        width: 430px;
         margin-bottom: 15px;
     }
 
     section.projects.first_row{
         margin: 50px 20px 0 20px;
-        width: 470px;
+        width: 82%;
     }
 
     section.projects.second_row{
         margin: 0px 20px;
-        width: 470px;
+        width: 82%;
     }
 
     section.projects.third_row{
         margin: 50px 20px 0 20px;
-        width: 470px;
+        width: 82%;
     }
 
     section.projects.fourth_row{
         margin: 0px 20px;
-        width: 470px;
+        width: 82%;
     }
 
     section.projects.fifth_row{
         margin: 50px 20px 0 20px;
-        width: 470px;
+        width: 82%;
     }
 
     /* About me */
@@ -776,7 +826,7 @@ video{
     div.personality{
         display: inline-block;
         vertical-align: top;
-        width: 470px;
+        width: 100%;
     }
 
     div.personality h3{
@@ -824,7 +874,7 @@ video{
     }
 
     .informations {
-        width: 400px;
+        width: 100%;
     }
 
     .informations img{
@@ -839,7 +889,7 @@ video{
 
     /* Projet spécifique */
     #work{
-        margin-top: 100px;
+        margin-top: 60px;
     }
 
     .bouton{
@@ -848,8 +898,14 @@ video{
     }
 
     section.personal_projet{
-        width: 100%;
+        width: 86%;
         margin: 0 20px 0 20px;
+    }
+
+    section.personal_projet a{
+        display: block;
+        margin: 0px;
+        text-align: center;
     }
 
     .wireframes div img{
@@ -859,6 +915,28 @@ video{
     .prototype div img{
         padding: 0 2px 15px 0;
     }
+
+    /* PAGE BLOSSOM */
+    .uclgo{
+        margin: 0 0 0 70px;
+        display: block;
+
+    }
+
+    /* PAGE MY HOBBY */
+    .logo_myhobby {
+        width: 25%;
+    }
+
+    /* PAGE CONTACT */
+    .personal_information{
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    #pagecontact{
+        margin-top: 90px;
+    } 
 }
 
 /* Mobile screen 640px */
@@ -885,7 +963,7 @@ video{
     h2 {
         font-size: 32px;
         display: block;
-        width: 470px;
+        width: 100%;
     }
     
     h3 {
@@ -954,21 +1032,47 @@ video{
     }
 
     /* Introduction */
+    .introduction {
+        margin-top: -100px;
+    }
+
     main#homepage div.square img{
-        width: 94%;
+        width: 73%;
         margin: 0 20px 10px 20px;
     }
 
     main#homepage div.square.paragraph{
-        width: 420px;
+        width: 73%;
         height: 215px;
         margin: 0 20px;
-        padding: 10px 25px 0px 25px;
+        padding: 0;
+        color: #23120B;
+        background: none;
     }
 
     main#homepage div.square.paragraph a{
         font-size: 14px;
-        padding: 10px 110px;
+        padding: 10px 0px;
+        display: block;
+        text-align: center;
+        margin: 0px;
+        text-align: center;
+        background-color: #FDB827;
+        text-decoration: none;
+        color: #23120B;
+        font-family: "Alfa Slab One", serif;
+        font-weight: 400;
+        font-style: normal;
+        border-radius: 10px;
+    }
+
+    main#homepage div.square.paragraph a:hover{
+        color: #F1F1F1;
+        background: #21209C;
+    }
+
+    main#homepage div.square.paragraph br{
+        display: none;
     }
 
     /* Testimonials */
@@ -977,7 +1081,7 @@ video{
     }
 
     main#homepage section.testimonials{
-        margin: 50px 20px 0 20px;
+        margin: -10px 20px 0px 20px;
     }
 
     main#homepage div.testimonial{
@@ -990,36 +1094,39 @@ video{
     }
 
     /* My projets */
+    #h2_projects{
+        font-size: 32px;
+        display: block;
+    }
+
     article.card{
-        width: 430px;
         margin-bottom: 15px;
     }
 
     section.projects.first_row{
         margin: 50px 20px 0 20px;
-        width: 470px;
+        width: 68%;
     }
 
     section.projects.second_row{
         margin: 0px 20px;
-        width: 470px;
+        width: 68%;
     }
 
     section.projects.third_row{
         margin: 50px 20px 0 20px;
-        width: 470px;
+        width: 68%;
     }
 
     section.projects.fourth_row{
         margin: 0px 20px;
-        width: 470px;
+        width: 68%;
     }
 
     section.projects.fifth_row{
         margin: 50px 20px 0 20px;
-        width: 470px;
+        width: 68%;
     }
-
 
     /* About me */
     section.about_me{
@@ -1105,6 +1212,12 @@ video{
         margin: 0px 20px 0 20px;
     }
 
+    section.personal_projet a{
+        display: block;
+        margin: 0px;
+        text-align: center;
+    }
+
     .wireframes div img{
         padding: 0 2px 15px 0;
     }
@@ -1112,6 +1225,26 @@ video{
     .prototype div img{
         padding: 0 2px 15px 0;
     }
+
+    /* PAGE BLOSSOM */
+    .uclgo{
+        margin: 0px;
+        display: block;
+    }
+
+    /* PAGE MY HOBBY */
+    .logo_myhobby {
+        width: 15%;
+    }
+
+    /* PAGE CONTACT */
+    .personal_information{
+        text-align: center;
+    }
+
+    #pagecontact{
+        margin-top: 200px;
+    } 
 }
 
 /* Mobile screen 768px */
@@ -1138,7 +1271,7 @@ video{
     h2 {
         font-size: 32px;
         display: block;
-        width: 470px;
+        width: 100%;
     }
     
     h3 {
@@ -1208,36 +1341,62 @@ video{
     }
 
     /* Introduction */
+    .introduction {
+        margin-top: -100px;
+    }
+
     main#homepage div.square img{
-        width: 100%;
+        width: 70%;
         margin: 0 20px 10px 40px;
     }
 
     main#homepage div.square.paragraph{
-        width: 450px;
+        width: 70%;
         height: 215px;
         margin: 0 40px;
-        padding: 10px 25px 0px 25px;
+        padding: 0;
+        color: #23120B;
+        background: none;
     }
 
     main#homepage div.square.paragraph a{
         font-size: 14px;
-        padding: 10px 125px;
+        padding: 10px 0px;
+        display: block;
+        margin: 0px;
+        text-align: center;
+        text-align: center;
+        background-color: #FDB827;
+        text-decoration: none;
+        color: #23120B;
+        font-family: "Alfa Slab One", serif;
+        font-weight: 400;
+        font-style: normal;
+        border-radius: 10px;
+    }
+
+    main#homepage div.square.paragraph a:hover{
+        color: #F1F1F1;
+        background: #21209C;
+    }
+
+    main#homepage div.square.paragraph br{
+        display: none;
     }
 
     /* Testimonials */
     .testimonials p{
-        width: 470px;
+        width: 100%;
     }
 
     main#homepage section.testimonials{
-        margin: 50px 20px 0 40px;
+        margin: -50px 20px 0 40px;
     }
 
     main#homepage div.testimonial{
         display: block;
-        width: 500px;
-        margin-bottom: 50px;
+        width: 76%;
+        margin-bottom: 10px;
     }
 
     main#homepage div.testimonial.second{
@@ -1245,34 +1404,39 @@ video{
     }
 
     /* My projets */
+    #h2_projects{
+        font-size: 32px;
+        display: block;
+    }
+
     article.card{
-        width: 460px;
+        width: 81%;
         margin-bottom: 15px;
     }
 
     section.projects.first_row{
         margin: 50px 20px 0 40px;
-        width: 500px;
+        width: 80%;
     }
 
     section.projects.second_row{
         margin: 0px 20px 0 40px;
-        width: 500px;
+        width: 80%;
     }
 
     section.projects.third_row{
         margin: 50px 20px 0 40px;
-        width: 500px;
+        width: 80%;
     }
 
     section.projects.fourth_row{
         margin: 0px 20px 0 40px;
-        width: 500px;
+        width: 80%;
     }
 
     section.projects.fifth_row{
         margin: 50px 20px 0 40px;
-        width: 500px;
+        width: 80%;
     }
 
     /* About me */
@@ -1359,6 +1523,12 @@ video{
         margin: 0px 20px 0 40px;
     }
 
+    section.personal_projet a{
+        display: block;
+        margin: 0px;
+        text-align: center;
+    }
+
     .wireframes div img{
         padding: 0 2px 15px 0;
     }
@@ -1366,6 +1536,26 @@ video{
     .prototype div img{
         padding: 0 2px 15px 0;
     }
+
+    /* PAGE BLOSSOM */
+    .uclgo{
+        margin: 0px;
+        display: block;
+    }
+
+    /* PAGE MY HOBBY */
+    .logo_myhobby {
+        width: 15%;
+    }
+
+    /* PAGE CONTACT */
+    .personal_information{
+        text-align: center;
+    }
+
+    #pagecontact{
+        margin-top: 200px;
+    } 
 }
 
 /* Tablet screen 1024px */
@@ -1385,26 +1575,31 @@ video{
     }
 
     .normal_h1{
-        font-size: 52px;
-        margin: 0 40px -30px 40px;
+        font-size: 92px;
+        margin: 150px 0 0 40px;
     }
-
+    
     h2{
-        font-size: 58px;
+        font-size: 55px;
     }
-
+    
     h3{
-        display: inline;
         font-size: 22px;
+        display: inline;
+    }
+    
+    p {
+        font-size: 16px;
     }
 
     ul {
-        font-size: 12px;
+        font-size: 16px;
     }
     
     /* Menu */
     header{
         position: fixed;
+        width: 100%;
     }
 
     header div{
@@ -1463,46 +1658,86 @@ video{
     }
     
     /* Introduction */
+    .introduction {
+        margin-top: -100px;
+    }
+    
     main#homepage div.square.image{
-        width: 45%;
+        width: 50%;
+    }
+
+    main#homepage div.square img{
+        width: 100%;
+        margin: 0 20px 10px 40px;
     }
     
     main#homepage div.square.paragraph{
         padding: 10px 25px 0px 25px;
         margin-left: 7px;
-        width: 30%;
+        width: 40%;
         height: 215px;
         margin-top: 120px;
-        padding-bottom: 20px;
+        padding-bottom: 40px;
+        color: #F1F1F1;
+        background-color: #23120B;
+        border-radius: 15px;
+        text-align: left;
     }
     
     main#homepage div.square.paragraph a{
         font-size: 16px;
-        padding: 12px 40px;
+        background-color: #FDB827;
+        text-decoration: none;
+        color: #23120B;
+        font-family: "Alfa Slab One", serif;
+        font-weight: 400;
+        font-style: normal;
+        border-radius: 10px;
+        padding: 12px 0px;
+        display: block;
+        margin: 0px ;
+        text-align: center;
     }
-    
+
+    main#homepage div.square.paragraph a:hover{
+        color: #21209C;
+        background-color: #F1F1F1;
+    }
+
     /* Testimonials */
+
+    .testimonials h2{
+        width: 900px;
+    }
+
     .testimonials p{
-        max-width: 250px;
+        width: 100%;
+    }
+
+    .container{
+        column-count: 3;
+        vertical-align: top;
     }
 
     main#homepage section.testimonials{
-        margin-top: 100px;
+        margin: 100px 20px 0 40px;
     }
-    
+
     main#homepage div.testimonial{
+        width: 80%;
         display: inline-block;
         vertical-align: top;
-        width: 200px;
     }
-    
+
     main#homepage div.testimonial.second{
-        padding: 0 80px;
+        padding: 0;
     }
-    
+
     /* My Projets */
     #h2_projects{
-        width: 800px;
+        font-size: 55px;
+        display: block;
+        width: 1000px;
     }
 
     article.card{
@@ -1511,27 +1746,27 @@ video{
 
     section.projects.first_row{
         margin-top: 70px;
-        width: 945px;
+        width: 100%;
     }
     
     section.projects.second_row{
         margin-top: -10px;
-        width: 945px;
+        width: 100%;
     }
     
     section.projects.third_row{
         margin-top: 100px;
-        width: 945px;
+        width: 100%;
     }
 
     section.projects.fourth_row{
         margin-top: -10px;
-        width: 945px;
+        width: 100%;
     }
 
     section.projects.fifth_row{
         margin-top: 100px;
-        width: 945px;
+        width: 100%;
     }
     
     /* About me */
@@ -1606,14 +1841,15 @@ video{
         margin-top: 200px;
     }
 
-    .bouton{
-        font-size: 16px;
-        padding: 15px 40px;
-    }
-
     section.personal_projet{
         width: 945px;
         margin: auto;
+    }
+
+    section.personal_projet a{
+        display: inline-block;
+        margin: 10px 0 0 0;
+        text-align: center;
     }
 
     .wireframes div img{
@@ -1623,6 +1859,44 @@ video{
     .prototype div img{
         padding: 0 2px 15px 0;
     }
+
+    /* PAGE BLOSSOM */
+    .uclgo{
+        margin: 0px;
+        display: block;
+    }
+
+    /* PAGE MY HOBBY */
+    .logo_myhobby {
+        width: 15%;
+    }
+
+    .documentation{
+        display: inline-block;
+    }
+
+    .documentation img{
+        width: 49%;
+        vertical-align: top;
+    }
+
+    .questionnement{
+        display: inline-block;
+    }
+
+    .questionnement img{
+        width: 49%;
+        vertical-align: top;
+    }
+
+    /* PAGE CONTACT */
+    .personal_information{
+        text-align: center;
+    }
+
+    #pagecontact{
+        margin-top: 350px;
+    } 
 }
 
 /* PC screen 1280px */
@@ -1665,6 +1939,7 @@ video{
     /* Menu */
     header{
         position: fixed;
+        width: 100%;
     }
 
     header div{
@@ -1714,45 +1989,73 @@ video{
     }
     
     /* Introduction */ 
+    .introduction {
+        margin-top: -100px;
+    }
+
     main#homepage div.square.image{
-        width: 55%;
+        width: 60%;
     }
     
     main#homepage div.square.paragraph{
         padding: 10px 25px 0px 25px;
-        margin-left: 7px;
-        width: 350px;
+        margin: 0px;
+        width: 34%;
         height: 300px;
         margin-top: 100px;
-        padding-bottom: 20px;
+        padding-bottom: 0px;
+        color: #F1F1F1;
+        background-color: #23120B;
+        border-radius: 15px;
+        text-align: left;
     }
 
     main#homepage div.square.paragraph a{
         font-size: 16px;
-        padding: 12px 62px;
+        padding: 12px 0px;
+        display: block;
+        margin: 0px ;
+        text-align: center;
+        background-color: #FDB827;
+        text-decoration: none;
+        color: #23120B;
+        font-family: "Alfa Slab One", serif;
+        font-weight: 400;
+        font-style: normal;
+        border-radius: 10px;
+    }
+
+    main#homepage div.square.paragraph a:hover{
+        color: #21209C;
+        background-color: #F1F1F1;
     }
 
     /* Testimonials */
+    .container{
+        column-count: 3;
+        vertical-align: top;
+    }
+
     .testimonials h2{
         width: 900px;
     }
 
+    .testimonials p{
+        width: 100%;
+    }
+
     main#homepage section.testimonials{
-        margin-top: 100px;
+        margin: 100px 20px 0 40px;
     }
 
     main#homepage div.testimonial{
         display: inline-block;
         vertical-align: top;
-        width: 230px;
+        width: 80%;
     }
 
     main#homepage div.testimonial.second{
-        padding: 0 51px;
-    }
-
-    .testimonials p{
-        max-width: 250px;
+        padding: 0;
     }
 
     /* My projets */
@@ -1761,27 +2064,32 @@ video{
     }
 
     article.card{
-        width: 298px;
+        width: 275px;
     }
 
     section.projects.first_row{
         margin-top: 70px;
+        width: 100%;
     }
 
     section.projects.second_row{
-        margin-top: 5px;
+        margin-top: -10px;
+        width: 100%;
     }
 
     section.projects.third_row{
         margin-top: 100px;
+        width: 100%;
     }
     
     section.projects.fourth_row{
-        margin-top: 5px;
+        margin-top: -10px;
+        width: 100%;
     }  
 
     section.projects.fifth_row{
         margin-top: 150px;
+        width: 100%;
     }
 
     /* About me*/
@@ -1860,6 +2168,12 @@ video{
         margin: auto;
     }
 
+    section.personal_projet a{
+        display: inline-block;
+        margin: 10px 0 0 0;
+        text-align: center;
+    }
+
     .wireframes div img{
         padding: 0 2px 15px 0;
     }
@@ -1867,6 +2181,44 @@ video{
     .prototype div img{
         padding: 0 2px 15px 0;
     }
+
+    /* PAGE BLOSSOM */
+    .uclgo{
+        margin: 0px;
+        display: block;
+    }
+
+    /* PAGE MY HOBBY */
+    .logo_myhobby {
+        width: 15%;
+    }
+
+    .documentation{
+        display: inline-block;
+    }
+
+    .documentation img{
+        width: 49%;
+        vertical-align: top;
+    }
+
+    .questionnement{
+        display: inline-block;
+    }
+
+    .questionnement img{
+        width: 49%;
+        vertical-align: top;
+    }
+
+    /* PAGE CONTACT */
+    .personal_information{
+        text-align: center;
+    }
+
+    #pagecontact{
+        margin-top: 350px;
+    } 
 }
 
 /* PC screen 1536px */
@@ -1909,6 +2261,7 @@ video{
     /* Menu */
     header{
         position: fixed;
+        width: 100%;
     }
     
     header div{
@@ -1958,41 +2311,69 @@ video{
     }
 
     /* Introduction */
+    .introduction {
+        margin-top: -100px;
+    }
+
     main#homepage div.square.image{
         width: 50%;
     }
     
     main#homepage div.square.paragraph{
-        padding: 10px 25px;
+        padding: 10px 25px 0px 25px;
         margin-left: 0px;
         width: 411px;
         height: 270px;
         margin-top: 100px;
+        color: #F1F1F1;
+        background-color: #23120B;
+        border-radius: 15px;
+        text-align: left;
     }
 
     main#homepage div.square.paragraph a{
         font-size: 16px;
         padding: 12px 92px;
+        background-color: #FDB827;
+        text-decoration: none;
+        color: #23120B;
+        font-family: "Alfa Slab One", serif;
+        font-weight: 400;
+        font-style: normal;
+        border-radius: 10px;
+    }
+
+    main#homepage div.square.paragraph a:hover{
+        color: #21209C;
+        background-color: #F1F1F1;
     }
 
     /* Testimonials */
+    .container{
+        column-count: 3;
+        vertical-align: top;
+    }
+
     .testimonials h2{
         width: 900px;
     }
 
-    main#homepage section.testimonials{
-        margin-top: 100px;
+    .testimonials p{
         width: 100%;
     }
-    
+
+    main#homepage section.testimonials{
+        margin: 100px 20px 0 40px;
+    }
+
     main#homepage div.testimonial{
         display: inline-block;
         vertical-align: top;
-        width: 300px;
+        width: 80%;
     }
-    
+
     main#homepage div.testimonial.second{
-        padding-left: 0px;
+        padding: 0;
     }
 
     /* My projets */
@@ -2001,27 +2382,32 @@ video{
     }
 
     article.card{
-        width: 298px;
+        width: 275px;
     }
 
     section.projects.first_row{
         margin-top: 100px;
+        width: 100%;
     }
 
     section.projects.second_row{
-        margin-top: 5px;
+        margin-top: -10px;
+        width: 100%;
     }
 
     section.projects.third_row{
         margin-top: 100px;
+        width: 100%;
     }    
 
     section.projects.fourth_row{
-        margin-top: 5px;
+        margin-top: -10px;
+        width: 100%;
     }
 
     section.projects.fifth_row{
         margin-top: 150px;
+        width: 100%;
     }
 
     /* Contact */
@@ -2100,11 +2486,55 @@ video{
         margin: auto;
     }
 
+    section.personal_projet a{
+        display: inline-block;
+        margin: 10px 0 0 0;
+        text-align: center;
+    }
+
     .wireframes div img{
         padding: 0 2px 15px 0;
     }
 
     .prototype div img{
         padding: 0 2px 15px 0;
+    }
+
+    /* PAGE BLOSSOM */
+    .uclgo{
+        margin: 0px;
+        display: block;
+    }
+
+    /* PAGE MY HOBBY */
+    .logo_myhobby {
+        width: 15%;
+    }
+
+    .documentation{
+        display: inline-block;
+    }
+
+    .documentation img{
+        width: 49%;
+        vertical-align: top;
+    }
+
+    .questionnement{
+        display: inline-block;
+    }
+
+    .questionnement img{
+        width: 49%;
+        vertical-align: top;
+    }
+
+    /* PAGE CONTACT */
+    .personal_information{
+        text-align: center;
+    }
+
+    #pagecontact{
+        margin-top: 350px;
     }
 }
