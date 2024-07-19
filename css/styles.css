@@ -322,7 +322,8 @@ video{
 
     .normal_h1{
         font-size: 52px;
-        margin: -70px 20px 0 20px;
+        margin: -150px 20px 0 20px;
+        padding-top: 0px;
     }
 
     h2 {
@@ -598,7 +599,7 @@ video{
 
     section.personal_projet a{
         display: block;
-        margin: 0px;
+        margin-top: 10px;
         text-align: center;
     }
 
@@ -647,7 +648,8 @@ video{
 
     .normal_h1{
         font-size: 52px;
-        margin: -70px 20px 0 20px;
+        margin: -150px 20px 0 20px;
+        padding-top: 0px;
     }
 
     h2 {
@@ -904,7 +906,7 @@ video{
 
     section.personal_projet a{
         display: block;
-        margin: 0px;
+        margin-top: 10px;
         text-align: center;
     }
 
@@ -958,6 +960,7 @@ video{
     .normal_h1{
         font-size: 52px;
         margin: -75px 20px 0 20px;
+        padding-top: 0px;
     }
 
     h2 {
@@ -1214,7 +1217,7 @@ video{
 
     section.personal_projet a{
         display: block;
-        margin: 0px;
+        margin-top: 10px;
         text-align: center;
     }
 
@@ -1266,6 +1269,7 @@ video{
     .normal_h1{
         font-size: 52px;
         margin: -75px 20px 0 40px;
+        padding-top: 0px;
     }
 
     h2 {
@@ -1525,7 +1529,7 @@ video{
 
     section.personal_projet a{
         display: block;
-        margin: 0px;
+        margin-top: 10px;
         text-align: center;
     }
 
@@ -1566,7 +1570,7 @@ video{
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        height: 850px;
+        height: none;
     }
     
     h1{
@@ -1577,6 +1581,7 @@ video{
     .normal_h1{
         font-size: 92px;
         margin: 150px 0 0 40px;
+        padding-top: 80px;
     }
     
     h2{
@@ -1652,14 +1657,9 @@ video{
         color: #21209C;
     }
     
-    /* Body */
-    main{
-        margin: 250px auto 100px;
-    }
-    
     /* Introduction */
     .introduction {
-        margin-top: -100px;
+        margin-top: 150px;
     }
     
     main#homepage div.square.image{
@@ -1705,7 +1705,6 @@ video{
     }
 
     /* Testimonials */
-
     .testimonials h2{
         width: 900px;
     }
@@ -1737,36 +1736,36 @@ video{
     #h2_projects{
         font-size: 55px;
         display: block;
-        width: 1000px;
+        width: 964px;
     }
 
     article.card{
-        width: 272px;
+        width: 263px;
     }
 
     section.projects.first_row{
         margin-top: 70px;
-        width: 100%;
+        width: 90%;
     }
     
     section.projects.second_row{
         margin-top: -10px;
-        width: 100%;
+        width: 90%;
     }
     
     section.projects.third_row{
         margin-top: 100px;
-        width: 100%;
+        width: 90%;
     }
 
     section.projects.fourth_row{
         margin-top: -10px;
-        width: 100%;
+        width: 90%;
     }
 
     section.projects.fifth_row{
         margin-top: 100px;
-        width: 100%;
+        width: 90%;
     }
     
     /* About me */
@@ -1847,9 +1846,10 @@ video{
     }
 
     section.personal_projet a{
-        display: inline-block;
-        margin: 10px 0 0 0;
+        display: block;
+        margin-top: 10px;
         text-align: center;
+        width: 30%;
     }
 
     .wireframes div img{
@@ -1895,8 +1895,12 @@ video{
     }
 
     #pagecontact{
-        margin-top: 350px;
+        margin-top: 150px;
     } 
+
+    .personal_information h2{
+        padding-top: 180px;
+    }
 }
 
 /* PC screen 1280px */
@@ -1917,6 +1921,7 @@ video{
     .normal_h1{
         font-size: 92px;
         margin: 150px 0 0 40px;
+        padding-top: 80px;
     }
     
     h2{
@@ -1990,7 +1995,7 @@ video{
     
     /* Introduction */ 
     .introduction {
-        margin-top: -100px;
+        margin-top: 150px;
     }
 
     main#homepage div.square.image{
@@ -2169,9 +2174,10 @@ video{
     }
 
     section.personal_projet a{
-        display: inline-block;
-        margin: 10px 0 0 0;
+        display: block;
+        margin-top: 10px;
         text-align: center;
+        width: 30%;
     }
 
     .wireframes div img{
@@ -2217,8 +2223,12 @@ video{
     }
 
     #pagecontact{
-        margin-top: 350px;
+        margin-top: 150px;
     } 
+
+    .personal_information h2{
+        padding-top: 180px;
+    }
 }
 
 /* PC screen 1536px */
@@ -2239,6 +2249,7 @@ video{
     .normal_h1{
         font-size: 92px;
         margin: 150px 0 0 40px;
+        padding-top: 80px;
     }
     
     h2{
@@ -2312,7 +2323,7 @@ video{
 
     /* Introduction */
     .introduction {
-        margin-top: -100px;
+        margin-top: 150px;
     }
 
     main#homepage div.square.image{
@@ -2487,9 +2498,10 @@ video{
     }
 
     section.personal_projet a{
-        display: inline-block;
-        margin: 10px 0 0 0;
+        display: block;
+        margin-top: 10px;
         text-align: center;
+        width: 30%;
     }
 
     .wireframes div img{
@@ -2535,6 +2547,10 @@ video{
     }
 
     #pagecontact{
-        margin-top: 350px;
+        margin-top: 150px;
+    }
+
+    .personal_information h2{
+        padding-top: 180px;
     }
 }
