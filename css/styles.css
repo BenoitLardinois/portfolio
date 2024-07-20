@@ -305,9 +305,21 @@ video{
     width: 105%;
 }
 
-/* PAGE STAGE FACILE */
+/* Stage Facile */
+.wireframes_stagefacile img{
+    width: 100%;
+}
+
+.prototype_stagefacile img{
+    width: 100%;
+}
+
 .logo_stagefacile{
     width: 20%;
+}
+
+.kitui_stagefacile{
+    width: 30%;
 }
 
 /* RESPONSIVE */
