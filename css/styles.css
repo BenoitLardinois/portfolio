@@ -475,6 +475,7 @@ video{
     main#homepage div.testimonial{
         display: block;
         width: 100%;
+        padding-bottom: 10px;
     }
 
     main#homepage div.testimonial.second{
@@ -635,8 +636,36 @@ video{
     }
 
     /* PAGE MY HOBBY */
-    .logo_myhobby {
-    width: 25%;
+    .logo_myhobby{
+        width: 25%;
+    }
+
+    /* PAGE UBUYBOOKS */
+    .logo_ubuybooks{
+        width: 50%;
+    }
+
+    .screenshots_ubuybooks img{
+        width: 25%;
+        vertical-align: top;
+    }
+
+    /* PROJET TALULA */
+    .project_talula img {
+        display: block;
+        margin-left: 20px;
+        width: 92%;
+    }
+
+    /* PHOTOSHOP & ILLUSTRATOR */
+    .text_graphic_design{
+        width: 90%;
+        margin:  0 20px;
+    }
+
+    .image_graphic_design img{
+        width: 90%;
+        margin: 0 20px;
     }
 
     /* PAGE CONTACT */
@@ -796,6 +825,7 @@ video{
     main#homepage div.testimonial{
         display: block;
         width: 100%;
+        padding-bottom: 10px;
     }
 
     main#homepage div.testimonial.second{
@@ -939,12 +969,39 @@ video{
     .uclgo{
         margin: 0 0 0 70px;
         display: block;
-
     }
 
     /* PAGE MY HOBBY */
     .logo_myhobby {
         width: 25%;
+    }
+
+    /* PAGE UBUYBOOKS */
+    .logo_ubuybooks{
+        width: 30%;
+    }
+
+    .screenshots_ubuybooks img{
+        width: 25%;
+        vertical-align: top;
+    }
+
+    /* PROJET TALULA */
+    .project_talula img {
+        display: block;
+        margin-left: 20px;
+        width: 92%;
+    }
+
+    /* PHOTOSHOP & ILLUSTRATOR */
+    .text_graphic_design{
+        width: 93%;
+        margin:  0 20px;
+    }
+
+    .image_graphic_design img{
+        width: 93%;
+        margin: 0 20px;
     }
 
     /* PAGE CONTACT */
@@ -1107,6 +1164,7 @@ video{
     main#homepage div.testimonial{
         display: block;
         width: 435px;
+        padding-bottom: 10px;
     }
 
     main#homepage div.testimonial.second{
@@ -1255,6 +1313,34 @@ video{
     /* PAGE MY HOBBY */
     .logo_myhobby {
         width: 15%;
+    }
+
+    /* PAGE UBUYBOOKS */
+    .logo_ubuybooks{
+        width: 30%;
+    }
+
+    .screenshots_ubuybooks img{
+        width: 25%;
+        vertical-align: top;
+    }
+
+    /* PROJET TALULA */
+    .project_talula img {
+        display: block;
+        margin-left: 50px;
+        width: 70%;
+    }
+
+    /* PHOTOSHOP & ILLUSTRATOR */
+    .text_graphic_design{
+        width: 70%;
+        margin:  0 20px;
+    }
+
+    .image_graphic_design img{
+        width: 70%;
+        margin: 0 20px;
     }
 
     /* PAGE CONTACT */
@@ -1416,8 +1502,9 @@ video{
 
     main#homepage div.testimonial{
         display: block;
-        width: 76%;
+        width: 70%;
         margin-bottom: 10px;
+        padding-bottom: 10px;
     }
 
     main#homepage div.testimonial.second{
@@ -1569,6 +1656,34 @@ video{
         width: 15%;
     }
 
+    /* PAGE UBUYBOOKS */
+    .logo_ubuybooks{
+        width: 30%;
+    }
+
+    .screenshots_ubuybooks img{
+        width: 25%;
+        vertical-align: top;
+    }
+
+    /* PROJET TALULA */
+    .project_talula img {
+        display: block;
+        margin-left: 40px;
+        width: 70%;
+    }
+
+    /* PHOTOSHOP & ILLUSTRATOR */
+    .text_graphic_design{
+        width: 70%;
+        margin:  0 20px;
+    }
+
+    .image_graphic_design img{
+        width: 70%;
+        margin: 0 20px;
+    }
+
     /* PAGE CONTACT */
     .personal_information{
         text-align: center;
@@ -1678,6 +1793,10 @@ video{
     .introduction {
         margin-top: 150px;
     }
+
+    .text_paragraph{
+        padding-bottom: 5px;
+    }
     
     main#homepage div.square.image{
         width: 50%;
@@ -1736,13 +1855,14 @@ video{
     }
 
     main#homepage section.testimonials{
-        margin: 100px 20px 0 40px;
+        margin: 100px 40px 0 40px;
     }
 
     main#homepage div.testimonial{
-        width: 80%;
+        width: 100%;
         display: inline-block;
         vertical-align: top;
+        padding-bottom: 0px;
     }
 
     main#homepage div.testimonial.second{
@@ -1906,6 +2026,34 @@ video{
         vertical-align: top;
     }
 
+    /* PAGE UBUYBOOKS */
+    .logo_ubuybooks{
+        width: 20%;
+    }
+
+    .screenshots_ubuybooks img{
+        width: 15%;
+        vertical-align: top;
+    }
+
+    /* PROJET TALULA */
+    .project_talula img {
+        display: block;
+        margin-left: 113px;
+        width: 80%;
+    }
+
+    /* PHOTOSHOP & ILLUSTRATOR */
+    .text_graphic_design{
+        width: 80%;
+        margin: 0 0 0 113px;
+    }
+
+    .image_graphic_design img{
+        width: 80%;
+        margin: 0 0 0 113px;
+    }
+
     /* PAGE CONTACT */
     .personal_information{
         text-align: center;
@@ -2015,6 +2163,10 @@ video{
         margin-top: 150px;
     }
 
+    .text_paragraph{
+        padding-bottom: 11px;
+    }
+
     main#homepage div.square.image{
         width: 60%;
     }
@@ -2067,13 +2219,14 @@ video{
     }
 
     main#homepage section.testimonials{
-        margin: 100px 20px 0 40px;
+        margin: 100px 40px 0 40px;
     }
 
     main#homepage div.testimonial{
         display: inline-block;
         vertical-align: top;
-        width: 80%;
+        width: 100%;
+        padding-bottom: 0px;
     }
 
     main#homepage div.testimonial.second{
@@ -2086,32 +2239,32 @@ video{
     }
 
     article.card{
-        width: 275px;
+        width: 270px;
     }
 
     section.projects.first_row{
         margin-top: 70px;
-        width: 100%;
+        width: 92%;
     }
 
     section.projects.second_row{
         margin-top: -10px;
-        width: 100%;
+        width: 92%;
     }
 
     section.projects.third_row{
         margin-top: 100px;
-        width: 100%;
+        width: 92%;
     }
     
     section.projects.fourth_row{
         margin-top: -10px;
-        width: 100%;
+        width: 92%;
     }  
 
     section.projects.fifth_row{
         margin-top: 150px;
-        width: 100%;
+        width: 92%;
     }
 
     /* About me*/
@@ -2229,10 +2382,39 @@ video{
         display: inline-block;
     }
 
+    /* PAGE UBUYBOOKS */
+    .logo_ubuybooks{
+        width: 20%;
+    }
+
     .questionnement img{
         width: 49%;
         vertical-align: top;
     }
+
+    .screenshots_ubuybooks img{
+        width: 25%;
+        vertical-align: top;
+    }
+
+    /* PROJET TALULA */
+    .project_talula img {
+        display: block;
+        margin-left: 113px;
+        width: 80%;
+    }
+
+    /* PHOTOSHOP & ILLUSTRATOR */
+    .text_graphic_design{
+        width: 80%;
+        margin: 0 0 0 113px;
+    }
+
+    .image_graphic_design img{
+        width: 80%;
+        margin: 0 0 0 113px;
+    }
+    
 
     /* PAGE CONTACT */
     .personal_information{
@@ -2343,6 +2525,10 @@ video{
         margin-top: 150px;
     }
 
+    .text_paragraph{
+        padding-bottom: 15px;
+    }
+
     main#homepage div.square.image{
         width: 50%;
     }
@@ -2391,13 +2577,14 @@ video{
     }
 
     main#homepage section.testimonials{
-        margin: 100px 20px 0 40px;
+        margin: 100px 40px 0 40px;
     }
 
     main#homepage div.testimonial{
         display: inline-block;
         vertical-align: top;
-        width: 80%;
+        width: 100%;
+        padding-bottom: 0px;
     }
 
     main#homepage div.testimonial.second{
@@ -2410,32 +2597,32 @@ video{
     }
 
     article.card{
-        width: 275px;
+        width: 270px;
     }
 
     section.projects.first_row{
         margin-top: 100px;
-        width: 100%;
+        width: 92%;
     }
 
     section.projects.second_row{
         margin-top: -10px;
-        width: 100%;
+        width: 92%;
     }
 
     section.projects.third_row{
         margin-top: 100px;
-        width: 100%;
+        width: 92%;
     }    
 
     section.projects.fourth_row{
         margin-top: -10px;
-        width: 100%;
+        width: 92%;
     }
 
     section.projects.fifth_row{
         margin-top: 150px;
-        width: 100%;
+        width: 92%;
     }
 
     /* Contact */
@@ -2556,6 +2743,34 @@ video{
     .questionnement img{
         width: 49%;
         vertical-align: top;
+    }
+
+    /* PAGE UBUYBOOKS */
+    .logo_ubuybooks{
+        width: 20%;
+    }
+
+    .screenshots_ubuybooks img{
+        width: 25%;
+        vertical-align: top;
+    }
+
+    /* PROJET TALULA */
+    .project_talula img {
+        display: block;
+        margin-left: 113px;
+        width: 80%;
+    }
+
+    /* PHOTOSHOP & ILLUSTRATOR */
+    .text_graphic_design{
+        width: 80%;
+        margin: 0 0 0 113px;
+    }
+
+    .image_graphic_design img{
+        width: 80%;
+        margin: 0 0 0 113px;
     }
 
     /* PAGE CONTACT */
