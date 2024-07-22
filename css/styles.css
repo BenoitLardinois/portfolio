@@ -477,11 +477,7 @@ video{
         width: 100%;
         padding-bottom: 10px;
     }
-
-    main#homepage div.testimonial.second{
-        padding-left: 0;
-    }
-
+    
     /* My projets */
     #h2_projects{
         font-size: 20px;
@@ -837,10 +833,6 @@ video{
         padding-bottom: 10px;
     }
 
-    main#homepage div.testimonial.second{
-        padding-left: 0;
-    }
-
     /* My projets */
     #h2_projects{
         font-size: 20px;
@@ -1179,10 +1171,6 @@ video{
         display: block;
         width: 435px;
         padding-bottom: 10px;
-    }
-
-    main#homepage div.testimonial.second{
-        padding-left: 0;
     }
 
     /* My projets */
@@ -1524,10 +1512,6 @@ video{
         width: 70%;
         margin-bottom: 10px;
         padding-bottom: 10px;
-    }
-
-    main#homepage div.testimonial.second{
-        padding-left: 0;
     }
 
     /* My projets */
@@ -1888,10 +1872,6 @@ video{
         display: inline-block;
         vertical-align: top;
         padding-bottom: 0px;
-    }
-
-    main#homepage div.testimonial.second{
-        padding: 0;
     }
 
     /* My Projets */
@@ -2260,10 +2240,6 @@ video{
         padding-bottom: 0px;
     }
 
-    main#homepage div.testimonial.second{
-        padding: 0;
-    }
-
     /* My projets */
     #h2_projects{
         width: 1000px;
@@ -2598,12 +2574,6 @@ video{
     }
 
     /* Testimonials */
-    .container{
-        column-count: 3;
-        vertical-align: top;
-        width: 97%;
-    }
-
     .testimonials h2{
         width: 900px;
     }
@@ -2616,15 +2586,16 @@ video{
         margin: 100px 40px 0 40px;
     }
 
+    .container{
+        column-count: 3;
+        vertical-align: top;
+        width: 97%;
+    }
+
     main#homepage div.testimonial{
         display: inline-block;
         vertical-align: top;
         width: 100%;
-        padding-bottom: 0px;
-    }
-
-    main#homepage div.testimonial.second{
-        padding: 0;
     }
 
     /* My projets */
