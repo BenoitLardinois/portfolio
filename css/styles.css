@@ -658,13 +658,22 @@ video{
     }
 
     /* PHOTOSHOP & ILLUSTRATOR */
+    .project_graphic_design{
+        width: 97%;
+    }
+    
     .text_graphic_design{
         width: 90%;
-        margin:  0 20px;
+        margin: 0 20px;
     }
 
     .image_graphic_design img{
         width: 90%;
+        margin: 0 20px;
+        border-radius: 0px;
+    }
+
+    .image_graphic_design p{
         margin: 0 20px;
     }
 
@@ -1001,6 +1010,11 @@ video{
 
     .image_graphic_design img{
         width: 93%;
+        margin: 0 20px;
+        border-radius: 0px;
+    }
+
+    .image_graphic_design p{
         margin: 0 20px;
     }
 
@@ -1340,6 +1354,11 @@ video{
 
     .image_graphic_design img{
         width: 70%;
+        margin: 0 20px;
+        border-radius: 0px;
+    }
+
+    .image_graphic_design p{
         margin: 0 20px;
     }
 
@@ -1682,6 +1701,11 @@ video{
     .image_graphic_design img{
         width: 70%;
         margin: 0 20px;
+        border-radius: 0px;
+    }
+
+    .image_graphic_design p{
+        margin: 0 20px;
     }
 
     /* PAGE CONTACT */
@@ -1846,12 +1870,13 @@ video{
     }
 
     .testimonials p{
-        width: 100%;
+        width: 97%;
     }
 
     .container{
         column-count: 3;
         vertical-align: top;
+        width: 97%;
     }
 
     main#homepage section.testimonials{
@@ -2046,12 +2071,17 @@ video{
     /* PHOTOSHOP & ILLUSTRATOR */
     .text_graphic_design{
         width: 80%;
-        margin: 0 0 0 113px;
+        margin: 0 0 0 120px;
     }
 
     .image_graphic_design img{
-        width: 80%;
-        margin: 0 0 0 113px;
+        width: 50%;
+        margin: 0 0 0 270px;
+        border-radius: 0px;
+    }
+
+    .image_graphic_design p{
+        margin: 0 0 0 270px;
     }
 
     /* PAGE CONTACT */
@@ -2208,6 +2238,7 @@ video{
     .container{
         column-count: 3;
         vertical-align: top;
+        width: 97%;
     }
 
     .testimonials h2{
@@ -2215,7 +2246,7 @@ video{
     }
 
     .testimonials p{
-        width: 100%;
+        width: 97%;
     }
 
     main#homepage section.testimonials{
@@ -2407,14 +2438,18 @@ video{
     /* PHOTOSHOP & ILLUSTRATOR */
     .text_graphic_design{
         width: 80%;
-        margin: 0 0 0 113px;
+        margin: 0 0 0 120px;
     }
 
     .image_graphic_design img{
-        width: 80%;
-        margin: 0 0 0 113px;
+        width: 50%;
+        margin: 0 0 0 270px;
+        border-radius: 0px;
     }
     
+    .image_graphic_design p{
+        margin: 0 0 0 270px;
+    }
 
     /* PAGE CONTACT */
     .personal_information{
@@ -2566,6 +2601,7 @@ video{
     .container{
         column-count: 3;
         vertical-align: top;
+        width: 97%;
     }
 
     .testimonials h2{
@@ -2573,7 +2609,7 @@ video{
     }
 
     .testimonials p{
-        width: 100%;
+        width: 97%;
     }
 
     main#homepage section.testimonials{
@@ -2765,12 +2801,17 @@ video{
     /* PHOTOSHOP & ILLUSTRATOR */
     .text_graphic_design{
         width: 80%;
-        margin: 0 0 0 113px;
+        margin: 0 0 0 120px;
     }
 
     .image_graphic_design img{
-        width: 80%;
-        margin: 0 0 0 113px;
+        width: 50%;
+        margin: 0 0 0 270px;
+        border-radius: 0px;
+    }
+
+    .image_graphic_design p{
+        margin: 0 0 0 270px;
     }
 
     /* PAGE CONTACT */
