@@ -472,7 +472,7 @@ video{
         margin: -10px 20px 0px 20px;
     }
 
-    main#homepage div.testimonial{
+    main#homepage div.container{
         display: block;
         width: 100%;
         padding-bottom: 10px;
@@ -827,7 +827,7 @@ video{
         margin: -10px 20px 0px 20px;
     }
 
-    main#homepage div.testimonial{
+    main#homepage div.container{
         display: block;
         width: 100%;
         padding-bottom: 10px;
@@ -1160,16 +1160,16 @@ video{
 
     /* Testimonials */
     .testimonials p{
-        width: 470px;
+        width: 75%;
     }
 
     main#homepage section.testimonials{
         margin: -10px 20px 0px 20px;
     }
 
-    main#homepage div.testimonial{
+    main#homepage .container{
         display: block;
-        width: 435px;
+        width: 75%;
         padding-bottom: 10px;
     }
 
@@ -1500,14 +1500,14 @@ video{
 
     /* Testimonials */
     .testimonials p{
-        width: 100%;
+        width: 70%;
     }
 
     main#homepage section.testimonials{
         margin: -50px 20px 0 40px;
     }
 
-    main#homepage div.testimonial{
+    main#homepage .container{
         display: block;
         width: 70%;
         margin-bottom: 10px;
@@ -1849,29 +1849,22 @@ video{
     }
 
     /* Testimonials */
-    .testimonials h2{
-        width: 900px;
-    }
-
-    .testimonials p{
-        width: 97%;
-    }
-
-    .container{
-        column-count: 3;
-        vertical-align: top;
-        width: 97%;
-    }
-
     main#homepage section.testimonials{
         margin: 100px 40px 0 40px;
     }
 
-    main#homepage div.testimonial{
-        width: 100%;
-        display: inline-block;
-        vertical-align: top;
-        padding-bottom: 0px;
+    .testimonials h2{
+        width: 900px;
+    }
+
+    .container{
+        column-count: 3;
+        column-width: 100%;
+        column-gap: 10px;
+    }
+
+    .testimonial_2, .testimonial_3{
+        vertical-align: bottom;
     }
 
     /* My Projets */
@@ -2215,29 +2208,22 @@ video{
     }
 
     /* Testimonials */
-    .container{
-        column-count: 3;
-        vertical-align: top;
-        width: 97%;
+    main#homepage section.testimonials{
+        margin: 100px 40px 0 40px;
     }
 
     .testimonials h2{
         width: 900px;
     }
 
-    .testimonials p{
-        width: 97%;
+    .container{
+        column-count: 3;
+        column-width: 100%;
+        column-gap: 10px;
     }
 
-    main#homepage section.testimonials{
-        margin: 100px 40px 0 40px;
-    }
-
-    main#homepage div.testimonial{
-        display: inline-block;
-        vertical-align: top;
-        width: 100%;
-        padding-bottom: 0px;
+    .testimonial_2, .testimonial_3{
+        vertical-align: bottom;
     }
 
     /* My projets */
@@ -2574,28 +2560,22 @@ video{
     }
 
     /* Testimonials */
-    .testimonials h2{
-        width: 900px;
-    }
-
-    .testimonials p{
-        width: 97%;
-    }
-
     main#homepage section.testimonials{
         margin: 100px 40px 0 40px;
     }
 
-    .container{
-        column-count: 3;
-        vertical-align: top;
-        width: 97%;
+    .testimonials h2{
+        width: 900px;
     }
 
-    main#homepage div.testimonial{
-        display: inline-block;
-        vertical-align: top;
-        width: 100%;
+    .container{
+        column-count: 3;
+        column-width: 100%;
+        column-gap: 10px;
+    }
+
+    .testimonial_2, .testimonial_3{
+        vertical-align: bottom;
     }
 
     /* My projets */
