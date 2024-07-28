@@ -428,7 +428,7 @@ video{
     main#homepage div.square.paragraph{
         width: 89%;
         height: 215px;
-        margin: 0 20px;
+        margin: 0 20px 35px 20px;
         padding: 0;
         color: #23120B;
         background: none;
@@ -478,8 +478,9 @@ video{
     #h2_projects{
         font-size: 20px;
         display: block;
-        width: 100%;
+        width: 340px;
         margin-top: 50px;
+        padding-bottom: 10px;
     }
 
     article.card{
@@ -785,7 +786,7 @@ video{
     main#homepage div.square.paragraph{
         width: 90%;
         height: 215px;
-        margin: 0 20px;
+        margin: 0 20px 15px 20px;
         padding: 0;
         color: #23120B;
         background: none;
@@ -835,6 +836,8 @@ video{
         font-size: 20px;
         display: block;
         margin-top: 50px;
+        padding-bottom: 10px;
+        width: 100%;
     }
 
     article.card{
@@ -1176,6 +1179,8 @@ video{
         font-size: 32px;
         display: block;
         margin-top: 50px;
+        padding-bottom: 10px;
+        width: 110%;
     }
 
     article.card{
@@ -1466,7 +1471,7 @@ video{
     main#homepage div.square.paragraph{
         width: 70%;
         height: 215px;
-        margin: 0 40px;
+        margin: 0 40px 25px 40px;
         padding: 0;
         color: #23120B;
         background: none;
@@ -1518,6 +1523,8 @@ video{
         font-size: 32px;
         display: block;
         margin-top: 50px;
+        padding-bottom: 10px;
+        width: 100%;
     }
 
     article.card{
@@ -1873,6 +1880,7 @@ video{
         display: block;
         width: 964px;
         margin-top: 100px;
+        padding-bottom: 15px;
     }
 
     article.card{
@@ -2231,6 +2239,7 @@ video{
     #h2_projects{
         width: 1000px;
         margin-top: 100px;
+        padding-bottom: 15px;
     }
 
     article.card{
@@ -2584,6 +2593,7 @@ video{
     #h2_projects{
         width: 1000px;
         margin-top: 100px;
+        padding-bottom: 15px;
     }
 
     article.card{
