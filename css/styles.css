@@ -462,6 +462,7 @@ video{
     /* Testimonials */
     .testimonials p{
         width: 100%;
+        margin-bottom: 40px;
     }
 
     main#homepage section.testimonials{
@@ -819,6 +820,7 @@ video{
     /* Testimonials */
     .testimonials p{
         width: 100%;
+        margin-bottom: 40px;
     }
 
     main#homepage section.testimonials{
@@ -1162,6 +1164,7 @@ video{
     /* Testimonials */
     .testimonials p{
         width: 75%;
+        margin-bottom: 40px;
     }
 
     main#homepage section.testimonials{
@@ -1262,7 +1265,7 @@ video{
 
     /* Contact */
     .contact{
-        margin-top: 50px;
+        margin: 50px 0;
         margin-left: 20px;
         padding: 0;
     }
@@ -1278,7 +1281,7 @@ video{
     /* Footer */
     footer{
         width: 100%;
-        margin-top: -150px;      
+        margin-top: 0;      
     }
 
     /* Projet spécifique */
@@ -1360,7 +1363,7 @@ video{
     }
 
     #pagecontact{
-        margin-top: 200px;
+        margin-top: 350px;
     } 
 }
 
@@ -1505,6 +1508,7 @@ video{
     /* Testimonials */
     .testimonials p{
         width: 70%;
+        margin-bottom: 40px;
     }
 
     main#homepage section.testimonials{
@@ -1623,7 +1627,7 @@ video{
     /* Footer */
     footer{
         width: 100%;
-        margin-top: -150px;      
+        margin-top: 0px;      
     }
 
     /* Projet spécifique */
@@ -1705,7 +1709,7 @@ video{
     }
 
     #pagecontact{
-        margin-top: 200px;
+        margin-top: 350px;
     } 
 }
 
@@ -1828,7 +1832,7 @@ video{
         width: 40%;
         height: 215px;
         margin-top: 120px;
-        padding-bottom: 40px;
+        padding-bottom: 45px;
         color: #F1F1F1;
         background-color: #23120B;
         border-radius: 15px;
@@ -1856,6 +1860,10 @@ video{
     }
 
     /* Testimonials */
+    .testimonials p{
+        margin-bottom: 0px;
+    }
+
     main#homepage section.testimonials{
         margin: 100px 40px 0 40px;
     }
@@ -2217,6 +2225,10 @@ video{
     }
 
     /* Testimonials */
+    .testimonials p{
+        margin-bottom: 0px;
+    }
+
     main#homepage section.testimonials{
         margin: 100px 40px 0 40px;
     }
@@ -2571,6 +2583,10 @@ video{
     }
 
     /* Testimonials */
+    .testimonials p{
+        margin-bottom: 0px;
+    }
+
     main#homepage section.testimonials{
         margin: 100px 40px 0 40px;
     }
