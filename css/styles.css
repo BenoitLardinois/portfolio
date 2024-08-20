@@ -276,6 +276,25 @@ video{
     width: 100%;
 }
 
+/* MY DELHAIZE */ 
+.empathy_card{
+    background-color: #21209C;
+    color: #F1F1F1;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+.data_card{
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: solid 2px #21209C;
+}
+
+.mobile_mydelhaize img{
+    width: 19%;
+    border-radius: 0;
+}
+
 /* My Hobby */
 .documentation img{
     width: 100%;
@@ -629,6 +648,12 @@ video{
         padding: 0 2px 15px 0;
     }
 
+    /* PAGE MY DELHAIZE */
+    .logo_mydelhaize{
+        width: 25%;
+        border-radius: 0px;
+    }
+
     /* PAGE BLOSSOM */
     .uclgo{
         margin: 0 0 0 35px;
@@ -671,10 +696,6 @@ video{
         width: 90%;
         margin: 0 20px;
         border-radius: 0px;
-    }
-
-    .image_graphic_design p{
-        margin: 0 20px;
     }
 
     /* PAGE CONTACT */
@@ -979,6 +1000,12 @@ video{
         padding: 0 2px 15px 0;
     }
 
+    /* PAGE MY DELHAIZE */
+    .logo_mydelhaize{
+        width: 25%;
+        border-radius: 0px;
+    }
+
     /* PAGE BLOSSOM */
     .uclgo{
         margin: 0 0 0 70px;
@@ -1017,10 +1044,6 @@ video{
         width: 93%;
         margin: 0 20px;
         border-radius: 0px;
-    }
-
-    .image_graphic_design p{
-        margin: 0 20px;
     }
 
     /* PAGE CONTACT */
@@ -1328,6 +1351,12 @@ video{
         padding: 0 2px 15px 0;
     }
 
+    /* PAGE MY DELHAIZE */
+    .logo_mydelhaize{
+        width: 15%;
+        border-radius: 0px;
+    }
+
     /* PAGE BLOSSOM */
     .uclgo{
         margin: 0px;
@@ -1366,10 +1395,6 @@ video{
         width: 70%;
         margin: 0 20px;
         border-radius: 0px;
-    }
-
-    .image_graphic_design p{
-        margin: 0 20px;
     }
 
     /* PAGE CONTACT */
@@ -1678,6 +1703,12 @@ video{
         padding: 0 2px 15px 0;
     }
 
+    /* PAGE MY DELHAIZE */
+    .logo_mydelhaize{
+        width: 15%;
+        border-radius: 0px;
+    }
+
     /* PAGE BLOSSOM */
     .uclgo{
         margin: 0px;
@@ -1716,10 +1747,6 @@ video{
         width: 70%;
         margin: 0 20px;
         border-radius: 0px;
-    }
-
-    .image_graphic_design p{
-        margin: 0 20px;
     }
 
     /* PAGE CONTACT */
@@ -1781,7 +1808,7 @@ video{
         width: 750px;
         margin: auto;
         background-color: #23120B;
-        margin-top: 20px;
+        margin-top: 5px;
         padding: 5px 0;
         float: none;
         z-index: 100%;
@@ -1895,6 +1922,12 @@ video{
         column-count: 3;
         column-width: 100%;
         column-gap: 10px;
+    }
+
+    .container p{
+        margin-top: 0;
+        padding-top: 0;
+        height: 200px;
     }
 
     .testimonial_2, .testimonial_3{
@@ -2031,6 +2064,12 @@ video{
         padding: 0 2px 15px 0;
     }
 
+    /* PAGE MY DELHAIZE */
+    .logo_mydelhaize{
+        width: 15%;
+        border-radius: 0px;
+    }
+
     /* PAGE BLOSSOM */
     .uclgo{
         margin: 0px;
@@ -2081,16 +2120,13 @@ video{
     .text_graphic_design{
         width: 80%;
         margin: 0 0 0 120px;
+        text-align: center;
     }
 
     .image_graphic_design img{
         width: 50%;
         margin: 0 0 0 270px;
         border-radius: 0px;
-    }
-
-    .image_graphic_design p{
-        margin: 0 0 0 270px;
     }
 
     /* PAGE CONTACT */
@@ -2156,7 +2192,7 @@ video{
         margin: auto;
         background-color: #23120B;
         border-radius: 15px;
-        margin-top: 20px;
+        margin-top: 5px;
         padding: 5px 0;
         width: 750px;
         z-index: 100%;
@@ -2244,26 +2280,19 @@ video{
     }
 
     /* Testimonials */
-    .testimonials p{
-        margin-bottom: 0px;
-    }
-
-    main#homepage section.testimonials{
-        margin: 100px 40px 0 40px;
-    }
-
     .testimonials h2{
         width: 900px;
     }
 
     .container{
         column-count: 3;
-        column-width: 100%;
-        column-gap: 10px;
+        height: 200px;
     }
 
-    .testimonial_2, .testimonial_3{
-        vertical-align: bottom;
+    .container p{
+        margin-top: 0;
+        padding-top: 0;
+        height: 200px;
     }
 
     /* My projets */
@@ -2393,6 +2422,12 @@ video{
         padding: 0 2px 15px 0;
     }
 
+    /* PAGE MY DELHAIZE */
+    .logo_mydelhaize{
+        width: 15%;
+        border-radius: 0px;
+    }
+
     /* PAGE BLOSSOM */
     .uclgo{
         margin: 0px;
@@ -2443,16 +2478,13 @@ video{
     .text_graphic_design{
         width: 80%;
         margin: 0 0 0 120px;
+        text-align: center;
     }
 
     .image_graphic_design img{
         width: 50%;
         margin: 0 0 0 270px;
         border-radius: 0px;
-    }
-    
-    .image_graphic_design p{
-        margin: 0 0 0 270px;
     }
 
     /* PAGE CONTACT */
@@ -2602,26 +2634,19 @@ video{
     }
 
     /* Testimonials */
-    .testimonials p{
-        margin-bottom: 0px;
-    }
-
-    main#homepage section.testimonials{
-        margin: 100px 40px 0 40px;
-    }
-
     .testimonials h2{
         width: 900px;
     }
 
     .container{
         column-count: 3;
-        column-width: 100%;
-        column-gap: 10px;
+        height: 200px;
     }
 
-    .testimonial_2, .testimonial_3{
-        vertical-align: bottom;
+    .container p{
+        margin-top: 0;
+        padding-top: 0;
+        height: 200px;
     }
 
     /* My projets */
@@ -2751,6 +2776,12 @@ video{
         padding: 0 2px 15px 0;
     }
 
+    /* PAGE MY DELHAIZE */
+    .logo_mydelhaize{
+        width: 15%;
+        border-radius: 0px;
+    }
+
     /* PAGE BLOSSOM */
     .uclgo{
         margin: 0px;
@@ -2803,16 +2834,13 @@ video{
     .text_graphic_design{
         width: 80%;
         margin: 0 0 0 120px;
+        text-align: center;
     }
 
     .image_graphic_design img{
         width: 50%;
         margin: 0 0 0 270px;
         border-radius: 0px;
-    }
-
-    .image_graphic_design p{
-        margin: 0 0 0 270px;
     }
 
     /* PAGE CONTACT */
