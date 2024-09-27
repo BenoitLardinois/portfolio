@@ -153,6 +153,11 @@ article.card a:hover{
     vertical-align: top;
 }
 
+.informations a{
+    text-decoration: none;
+    color: #23120B;
+}
+
 .informations img{
     width: 100%;
     margin: auto;
@@ -551,9 +556,7 @@ video{
     }
 
     div.personality h3{
-        color: #F1F1F1;
-        background-color: #21209C;
-        border-radius: 20px;
+        color: #21209C;
         text-align: center;
         margin-left: auto;
         margin-right: auto;
@@ -920,9 +923,7 @@ video{
     }
 
     div.personality h3{
-        color: #F1F1F1;
-        background-color: #21209C;
-        border-radius: 20px;
+        color: #21209C;
         text-align: center;
         margin-left: auto;
         margin-right: auto;
@@ -1274,9 +1275,7 @@ video{
     }
 
     div.personality h3{
-        color: #F1F1F1;
-        background-color: #21209C;
-        border-radius: 20px;
+        color: #21209C;
         text-align: center;
         margin-left: auto;
         margin-right: auto;
@@ -1629,9 +1628,7 @@ video{
     }
 
     div.personality h3{
-        color: #F1F1F1;
-        background-color: #21209C;
-        border-radius: 20px;
+        color: #21209C;
         text-align: center;
         margin-left: auto;
         margin-right: auto;
@@ -1858,7 +1855,7 @@ video{
         padding: 8px 20px;
         margin-left: 0.5em;
         margin-right: 12px;
-        font-size: 20px;
+        font-size: 16px;
         text-align: center;
     }
     
@@ -1873,7 +1870,7 @@ video{
     }
 
     .text_paragraph{
-        padding-bottom: 5px;
+        padding-bottom: 10px;
     }
     
     main#homepage div.square.image{
@@ -1907,9 +1904,9 @@ video{
         font-weight: 400;
         font-style: normal;
         border-radius: 10px;
-        padding: 12px 0px;
+        padding: 8px 0px;
         display: block;
-        margin: 0px ;
+        margin: 0px;
         text-align: center;
     }
 
@@ -1998,9 +1995,7 @@ video{
     }
 
     div.personality h3{
-        color: #F1F1F1;
-        background-color: #21209C;
-        border-radius: 30px;
+        color: #21209C;
         text-align: center;
         margin-left: auto;
         margin-right: auto;
@@ -2134,7 +2129,7 @@ video{
     .text_graphic_design{
         width: 80%;
         margin: 0 0 0 120px;
-        text-align: center;
+        text-align: left;
     }
 
     .image_graphic_design img{
@@ -2239,7 +2234,7 @@ video{
         padding: 8px 20px;
         margin-left: 0.5em;
         margin-right: 12px;
-        font-size: 20px;
+        font-size: 16px;
         text-align: center;
     }
 
@@ -2254,7 +2249,7 @@ video{
     }
 
     .text_paragraph{
-        padding-bottom: 11px;
+        padding-bottom: 15px;
     }
 
     main#homepage div.square.image{
@@ -2276,7 +2271,7 @@ video{
 
     main#homepage div.square.paragraph a{
         font-size: 16px;
-        padding: 12px 0px;
+        padding: 8px 0px;
         display: block;
         margin: 0px ;
         text-align: center;
@@ -2362,9 +2357,7 @@ video{
     }
 
     div.personality h3{
-        color: #F1F1F1;
-        background-color: #21209C;
-        border-radius: 40px;
+        color: #21209C;
         text-align: center;
         margin-left: auto;
         margin-right: auto;
@@ -2497,7 +2490,7 @@ video{
     .text_graphic_design{
         width: 80%;
         margin: 0 0 0 120px;
-        text-align: center;
+        text-align: left;
     }
 
     .image_graphic_design img{
@@ -2602,7 +2595,7 @@ video{
         padding: 8px 20px;
         margin-left: 0.5em;
         margin-right: 12px;
-        font-size: 20px;
+        font-size: 16px;
         text-align: center;
     }
 
@@ -2617,7 +2610,7 @@ video{
     }
 
     .text_paragraph{
-        padding-bottom: 15px;
+        padding-bottom: 20px;
     }
 
     main#homepage div.square.image{
@@ -2638,7 +2631,7 @@ video{
 
     main#homepage div.square.paragraph a{
         font-size: 16px;
-        padding: 12px 92px;
+        padding: 8px 92px;
         background-color: #FDB827;
         text-decoration: none;
         color: #23120B;
@@ -2734,9 +2727,7 @@ video{
     }
 
     div.personality h3{
-        color: #F1F1F1;
-        background-color: #21209C;
-        border-radius: 30px;
+        color: #21209C;
         text-align: center;
         margin-left: auto;
         margin-right: auto;
@@ -2858,7 +2849,7 @@ video{
     .text_graphic_design{
         width: 80%;
         margin: 0 0 0 120px;
-        text-align: center;
+        text-align: left;
     }
 
     .image_graphic_design img{
