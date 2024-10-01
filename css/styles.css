@@ -689,6 +689,11 @@ video{
     }
 
     /* PHOTOSHOP & ILLUSTRATOR */
+    .adobe h2{
+        margin:  0 20px;
+        width: 80%;
+    }
+
     .project_graphic_design{
         width: 97%;
     }
@@ -1042,6 +1047,11 @@ video{
     }
 
     /* PHOTOSHOP & ILLUSTRATOR */
+    .adobe h2{
+        margin:  0 20px;
+        width: 100%;
+    }
+
     .text_graphic_design{
         width: 93%;
         margin:  0 20px;
@@ -1394,6 +1404,11 @@ video{
     }
 
     /* PHOTOSHOP & ILLUSTRATOR */
+    .adobe h2{
+        margin:  0 20px;
+        width: 80%;
+    }
+
     .text_graphic_design{
         width: 70%;
         margin:  0 20px;
@@ -1747,6 +1762,11 @@ video{
     }
 
     /* PHOTOSHOP & ILLUSTRATOR */
+    .adobe h2{
+        margin:  0 20px;
+        width: 100%;
+    }
+
     .text_graphic_design{
         width: 70%;
         margin:  0 20px;
@@ -2126,15 +2146,20 @@ video{
     }
 
     /* PHOTOSHOP & ILLUSTRATOR */
+    .adobe h2{
+        margin:  0px;
+        width: 100%;
+    }
+
     .text_graphic_design{
         width: 80%;
-        margin: 0 0 0 120px;
+        margin: 0 0 0 0px;
         text-align: left;
     }
 
     .image_graphic_design img{
         width: 50%;
-        margin: 0 0 0 270px;
+        margin: 0 0 0 0px;
         border-radius: 0px;
     }
 
@@ -2487,15 +2512,20 @@ video{
     }
 
     /* PHOTOSHOP & ILLUSTRATOR */
+    .adobe h2{
+        margin:  0px;
+        width: 100%;
+    }
+
     .text_graphic_design{
         width: 80%;
-        margin: 0 0 0 120px;
+        margin: 0 0 0 0px;
         text-align: left;
     }
 
     .image_graphic_design img{
         width: 50%;
-        margin: 0 0 0 270px;
+        margin: 0 0 0 0px;
         border-radius: 0px;
     }
 
@@ -2846,15 +2876,20 @@ video{
     }
 
     /* PHOTOSHOP & ILLUSTRATOR */
+    .adobe h2{
+        margin:  0px;
+        width: 100%;
+    }
+
     .text_graphic_design{
         width: 80%;
-        margin: 0 0 0 120px;
+        margin: 0 0 0 0px;
         text-align: left;
     }
 
     .image_graphic_design img{
-        width: 50%;
-        margin: 0 0 0 270px;
+        width: 60%;
+        margin: 0 0 0 0px;
         border-radius: 0px;
     }
 
